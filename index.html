@@ -66,7 +66,7 @@
     async function connect() {
       try {
         const device = await navigator.bluetooth.requestDevice({
-          filters: [{ name: 'SelfBalancingRobot' }],
+          filters: [{ name: 'ESP32 BRobot' }],
           optionalServices: ['4fafc201-1fb5-459e-8fcc-c5c9c331914b']
         });
 
